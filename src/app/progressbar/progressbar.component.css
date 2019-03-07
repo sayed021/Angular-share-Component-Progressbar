@@ -1,0 +1,13 @@
+.progress {
+    height: 10px;
+    overflow: visible !important;
+    margin: 10px 0;
+}
+
+.progress .progress-bar {
+    transform: scaleY(1.5);
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg, #96b6fd 0%, #756cfc 100%);
+    transition: 0.3s;
+    width: 0;
+}

@@ -1,7 +1,17 @@
 <h1>
     Welcome to {{ title }}!
 </h1>
-
-<ss-progressbar [ProgressValue]="80" [progressType]="'bg-success'"></ss-progressbar>
-
-<app-another></app-another>
+<div class="row">
+    <div class="col-12 py-2">
+        <ss-progressbar [ProgressValue]="80" [progressType]="'bg-success'"></ss-progressbar>
+    </div>
+    <div class="col-12 py-2">
+        <ss-progressbar [ProgressValue]="95" [progressType]="'bg-warning'"></ss-progressbar>
+    </div>
+    <div class="col-12 py-2">
+        <ss-progressbar [ProgressValue]="75" [progressType]="'bg-danger'"></ss-progressbar>
+    </div>
+    <div class="col-12">
+        <app-another></app-another>
+    </div>
+</div>
