@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./another.component.css']
 })
 export class AnotherComponent implements OnInit {
-
   constructor() { }
-
-  ngOnInit() {
+  isRotate:boolean=false;
+  ngOnInit() { }
+  changeRotate() {
+    this.isRotate= this.isRotate ? false:true;
   }
-
 }

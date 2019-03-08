@@ -1,4 +1,4 @@
-<p>
-    another works!
-</p>
-<ss-progressbar [ProgressValue]="71" [progressType]="'bg-danger'"></ss-progressbar>
+<p> another works! <button (click)="changeRotate()">↻</button></p>
+<div [ngClass]="{'rotate-180': isRotate}" class="transitionIncluded">
+    <ss-progressbar [ProgressValue]="71" [progressType]="'bg-danger'"></ss-progressbar>
+</div>

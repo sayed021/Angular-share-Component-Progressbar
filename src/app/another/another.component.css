@@ -1,0 +1,7 @@
+.rotate-180 {
+    transform: rotateY(180deg)
+}
+
+.transitionIncluded {
+    transition: 1.5s;
+}
